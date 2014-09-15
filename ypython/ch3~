@@ -1,0 +1,20 @@
+import sys
+if len(sys.argv)<3:
+	print "more"
+	print sys.argv[0],"d1","d2"
+	sys.exit()
+d1 = sys.argv[1]
+d2 = sys.argv[2]
+print "comparing:"
+print d1
+print d2
+print 
+import os
+for d in [d1,d2]:
+	if not os.access(d,os.F_OK):
+		print d,"is not a valid directory"
+		sys.exit()
+	print "Directory",d
+	for item in os.walk(d)
+		print item 
+	print

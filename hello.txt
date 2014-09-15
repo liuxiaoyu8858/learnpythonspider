@@ -1,0 +1,6 @@
+a:hello 
+b:hello 
+a:nice to meet you 
+b:me too
+a:what's the time 
+b:i donot kown

@@ -1,0 +1,1 @@
+['hello \n', 'nice to meet you \n', "what's the time \n"]
